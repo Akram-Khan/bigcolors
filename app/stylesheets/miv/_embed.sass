@@ -1,0 +1,118 @@
+#project_embed
+  background: url($images_path+'bg_s3.png') left top repeat
+  border: 5px solid #fff
+  +border-radius(8px)
+  +box-shadow(rgba(black,0.75),4px,-4px,10px)
+  position: absolute
+  top: 50%
+  left: 50%
+  width: 660px
+  height: 480px
+  margin-top: -260px
+  margin-left: -340px
+  z-index: 500
+  padding: 20px
+  text-align: center
+  color: #fff
+  +text-shadow(black, 1px, 1px, 1px)
+  h1
+    font-family: "museo-500"
+    font-size: 24px
+    padding: 0 20px
+    margin-bottom: 24px
+    color: #fff
+  h2
+    padding: 0
+    margin-bottom: 16px
+    color: #fff
+  a.close
+    font-family: 'Lato-Bold'
+    color: #fff
+    text-decoration: none
+    position: absolute
+    width: 24px
+    height: 24px
+    border: 3px solid #fff
+    +border-radius(24px)
+    top: 0
+    left: 100%
+    margin-top: -15px
+    margin-left: -15px
+    line-height: 22px
+    background-color: $ultra_gryn
+    +box-shadow(rgba(black,0.75),4px,-4px,10px)
+    font-weight: bold
+    +transition(all, 0.3s)
+  a.close:hover, a.close:focus
+    color: #fff
+    +scale(1.05)
+  #project_box_embed
+    float: left
+    textarea
+      padding-right: 4px
+      margin-top: 8px
+      height: 48px
+      width: 214px
+      background-color: $gryn
+      font-size: 14px
+  #project_video_embed
+    float: right
+    iframe
+      +border-radius(8px)
+    textarea
+      padding-right: 4px
+      margin-top: 8px
+      height: 48px
+      width: 358px
+      background-color: $gryn
+      font-size: 14px
+
+#embed
+  .project
+    margin: 0
+
+#video_embed
+  text-align: center
+  padding: 0
+  h1
+    font-family: "Lato-Bold"
+    font-size: 22px
+    line-height: 22px
+    padding: 12px 0 8px 0
+    a
+      color: black
+      text-decoration: none
+      &:hover
+        color: $green
+  h2
+    font-family: "Lato-Regular"
+    font-size: 14px
+    line-height: 16px
+    color: #666
+    padding: 0
+    a
+      text-decoration: none
+      color: $blue
+      +transition(all, 0.5s)
+      &:hover
+        color: $pink
+  #platform_link
+    h1
+      font-family: "Lato-Regular"
+      font-size: 28px
+      line-height: 30px
+      padding: 0
+      a
+        color: #222
+        text-decoration: none
+        +transition
+      a:hover
+        +text-shadow(rgba(0,150,0,0.4), 1px, 1px, 10px)
+  #video_embed_footer
+    position: fixed
+    bottom: 4px
+    left: 50%
+    width: 220px
+    margin-left: -110px
+
+
