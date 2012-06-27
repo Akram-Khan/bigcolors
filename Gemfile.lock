@@ -450,7 +450,7 @@ DEPENDENCIES
   pg
   rack-timeout
   rails (= 3.0.3)
-  rake (>= 0.8.7)
+  rake
   rcov (= 0.9.11)
   rmagick
   routing-filter
