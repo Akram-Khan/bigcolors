@@ -8,3 +8,5 @@ I18n.available_locales = Dir[Rails.root.join('config', 'locales', '*.{yml}')].co
 # set default locale to something other than :en
 I18n.default_locale = :en
 
+
+
