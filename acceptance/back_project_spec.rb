@@ -34,7 +34,7 @@ feature "Back project" do
     click_on "Revisar e realizar pagamento"
     verify_translations
     current_path.should == review_project_backers_path(@project)
-    page.should have_content("Você irá apoiar com R$ 10 e não quer nenhuma recompensa por seu apoio.")
+    page.should have_content("Você irá apoiar com $ 10 e não quer nenhuma recompensa por seu apoio.")
     
   end
   
@@ -87,7 +87,7 @@ feature "Back project" do
     click_on "Revisar e realizar pagamento"
     verify_translations
     current_path.should == review_project_backers_path(@project)
-    page.should have_content("Você irá apoiar com R$ 20 e ganhará a seguinte recompensa: $20 reward")
+    page.should have_content("Você irá apoiar com $ 20 e ganhará a seguinte recompensa: $20 reward")
     
     Backer.count.should == 1
     backer = Backer.first
@@ -174,7 +174,7 @@ feature "Back project" do
     click_on "Revisar e realizar pagamento"
     verify_translations
     current_path.should == review_project_backers_path(@project)
-    page.should have_content("Você irá apoiar com R$ 30 e ganhará a seguinte recompensa: $30 reward")
+    page.should have_content("Você irá apoiar com $ 30 e ganhará a seguinte recompensa: $30 reward")
     
     Backer.count.should == 1
     backer = Backer.first
@@ -240,8 +240,8 @@ feature "Back project" do
     backer.payment_method.should == "MoIP"
   
     current_path.should == review_project_backers_path(@project)
-    page.should have_content("Você irá apoiar com R$ 10 e não quer nenhuma recompensa por seu apoio.")
-    page.should have_content("Este apoio será pago com seus créditos. Após a confirmação, você ficará com um saldo de R$ 0 em créditos para apoiar outros projetos.")
+    page.should have_content("Você irá apoiar com $ 10 e não quer nenhuma recompensa por seu apoio.")
+    page.should have_content("Este apoio será pago com seus créditos. Após a confirmação, você ficará com um saldo de $ 0 em créditos para apoiar outros projetos.")
     
     find("#user_submit")[:disabled].should == "true"
     check "Eu li e estou de acordo com os termos de uso."
