@@ -12,7 +12,7 @@ Catarse::Application.routes.draw do
 
   ActiveAdmin.routes(self)
 
-  filter :locale
+  #filter :locale
 
   root to: 'projects#index'
 
