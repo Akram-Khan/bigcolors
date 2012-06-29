@@ -84,24 +84,17 @@ class ProjectsController < ApplicationController
       "#{I18n.t('site.base_url')}#{user_path(current_user)}").deliver
 
     # Send project receipt
-    logger.debug "HEre1"
     notification_text = I18n.t('project.start.notification_text', :locale => current_user.locale)
-    logger.debug "here2"
     email_subject = I18n.t('project.start.email_subject', :locale => current_user.locale)
-    logger.debug "here3"
     email_text = I18n.t('project.start.email_text', 
                         :facebook => I18n.t('site.facebook', :locale => current_user.locale), 
                         :blog => I18n.t('site.blog', :locale => current_user.locale), 
                         :explore_link => explore_url, 
                         :email => (I18n.t('site.email.contact', :locale => current_user.locale)), 
                         :locale => current_user.locale)
-    logger.debug "here4"
-    #Notification.create :user => current_user, :text => notification_text, :email_subject => email_subject, :email_text => email_text
-    logger.debug "here5"
+    Notification.create :user => current_user, :text => notification_text, :email_subject => email_subject, :email_text => email_text
     flash[:success] = t('projects.send_mail.success')
-    logger.debug "here6"
     redirect_to :root
-    logger.debug "here7"
   end
 
   def new
