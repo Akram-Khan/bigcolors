@@ -541,13 +541,13 @@ en:
     base_url: "http://catarse.me"
     blog: "http://blog.catarse.me/"
     email:
-      contact: contato@catarse.me
-      payments: financeiro@catarse.me
-      projects: projetos@catarse.me
-      system: system@catarse.me
+      contact: bigcolors@akaruilabs.com
+      payments: bigcolors@akaruilabs.com
+      projects: bigcolors@akaruilabs.com
+      system: bigcolors@akaruilabs.com
     facebook: "http://www.facebook.com/Catarse.me"
     name: BigColors
-    title: "The first crowdfunding platform from Brazil"
+    title: "Bigcolors"
     twitter: Catarse_
   static:
     faq:
