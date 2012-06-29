@@ -142,6 +142,7 @@ class User < ActiveRecord::Base
       user.image_url = auth["user_info"]["image"]
       #user.locale = I18n.locale.to_s
       user.locale = :en
+
     end
   end
 
