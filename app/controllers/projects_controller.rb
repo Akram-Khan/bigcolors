@@ -92,7 +92,7 @@ class ProjectsController < ApplicationController
                         :explore_link => explore_url, 
                         :email => (I18n.t('site.email.contact', :locale => current_user.locale)), 
                         :locale => current_user.locale)
-    #I18n.locale = :en
+    I18n.locale = :en
     Notification.create :user => current_user, :text => notification_text, :email_subject => email_subject, :email_text => email_text
     flash[:success] = t('projects.send_mail.success')
     redirect_to :root
