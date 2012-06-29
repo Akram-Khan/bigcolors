@@ -14,7 +14,8 @@ class PaypalController < ApplicationController
         backer.update_attribute :payment_method, 'PayPal'
         redirect_to paypal_response.redirect_uri
     rescue Exception => e
-      Airbrake.notify({ :error_class => "Paypal Error", :error_message => "Paypal Error: #{e.inspect}", :parameters => params}) rescue nil
+      Airb
+      rake.notify({ :error_class => "Paypal Error", :error_message => "Paypal Error: #{e.inspect}", :parameters => params}) rescue nil
       paypal_flash_error
       return redirect_to new_project_backer_path(backer.project)
     end
@@ -66,7 +67,7 @@ class PaypalController < ApplicationController
   def initialize_paypal
 
     #NOTE: to use sandbox mode
-    # Paypal.sandbox!
+      Paypal.sandbox!
 
     @paypal = Paypal::Express::Request.new({
       :username => Configuration[:paypal_username],
