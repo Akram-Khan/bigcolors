@@ -7,7 +7,7 @@ class UsersMailer < ActionMailer::Base
     old_locale = I18n.locale
     #I18n.locale = @notification.user.locale
     #I18n.locale = @notification.user.locale if I18n.locale.to_s != @notification.user.locale.to_s # we need this if to avoid stack overflow in controller
-    I18n.locale.to_s = :en
+    I18n.locale.to_s = @notification.user.locale.to_s
     logger.debug "mailer2"
     mail(:from => "#{I18n.t('site.name')} <#{I18n.t('site.email.contact')}>", :to => @notification.user.email, :subject => @notification.email_subject)
     logger.debug "mailer3"
