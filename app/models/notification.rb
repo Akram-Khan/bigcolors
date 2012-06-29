@@ -5,6 +5,7 @@ class Notification < ActiveRecord::Base
   scope :not_dismissed, where(:dismissed => false)
   after_create :send_email
   def send_email
+    I18n.locale = self.user.locale
     return unless self.email_subject and self.email_text and self.user.email
     UsersMailer.notification_email(self).deliver
   rescue
