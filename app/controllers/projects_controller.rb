@@ -96,7 +96,7 @@ class ProjectsController < ApplicationController
                         :email => (I18n.t('site.email.contact', :locale => current_user.locale)), 
                         :locale => current_user.locale)
     logger.debug "here4"
-    Notification.create :user => current_user, :text => notification_text, :email_subject => email_subject, :email_text => email_text
+    #Notification.create :user => current_user, :text => notification_text, :email_subject => email_subject, :email_text => email_text
     logger.debug "here5"
     flash[:success] = t('projects.send_mail.success')
     logger.debug "here6"
