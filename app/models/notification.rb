@@ -7,6 +7,7 @@ class Notification < ActiveRecord::Base
   def send_email
     I18n.locale = :en
     return unless self.email_subject and self.email_text and self.user.email
+    I18n.locale = :en
     UsersMailer.notification_email(self).deliver
   rescue
   end
