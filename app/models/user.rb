@@ -140,7 +140,8 @@ class User < ActiveRecord::Base
       user.nickname = auth["user_info"]["nickname"]
       user.bio = auth["user_info"]["description"][0..139] if auth["user_info"]["description"]
       user.image_url = auth["user_info"]["image"]
-      user.locale = I18n.locale.to_s
+      #user.locale = I18n.locale.to_s
+      user.locale = :en
     end
   end
 
