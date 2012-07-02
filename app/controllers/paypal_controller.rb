@@ -78,7 +78,7 @@ class PaypalController < ApplicationController
 
   def paypal_payment(backer)
     Paypal::Payment::Request.new({
-      currency_code: :BRL,
+      currency_code: :USD,
       amount: backer.value,
       description: t('paypal_description', scope: SCOPE),
       items: [{

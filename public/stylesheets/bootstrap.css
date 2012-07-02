@@ -8266,23 +8266,6 @@ body #page_content .container .list_title .title h2 {
 body #page_content .container .projects {
   padding-top: 20px;
 }
-/* line 45, ../../app/stylesheets/content/_body.sass */
-body #logos {
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  -o-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -khtml-border-radius: 8px;
-  border-radius: 8px;
-  padding: 0 10px 60px 10px;
-  margin-top: 60px;
-}
 /* line 35, ../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-960-plugin-0.10.4/stylesheets/960/_grid.sass */
 body #logos .grid_1, body #logos .grid_2, body #logos .grid_3, body #logos .grid_4, body #logos .grid_5, body #logos .grid_6, body #logos .grid_7, body #logos .grid_8, body #logos .grid_9, body #logos .grid_10, body #logos .grid_11, body #logos .grid_12, body #logos .grid_13, body #logos .grid_14, body #logos .grid_15, body #logos .grid_16 {
   display: inline;
@@ -9899,7 +9882,8 @@ body #logos .power a {
 
 /* line 1, ../../app/stylesheets/content/_sidebar.sass */
 .sidebar {
-  min-height: 1635px;
+  /*min-height: 1635px; */
+  min-height: 1050px;
   border-left: 1px #dfdfdf solid;
 }
 /* line 4, ../../app/stylesheets/content/_sidebar.sass */

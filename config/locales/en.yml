@@ -552,6 +552,8 @@ en:
   static:
     faq:
       title: "Frequent asked questions"
+    how_it_works:
+      title: "How it Works"
     guidelines:
       accept: "I have read and understood how BigColors works."
       submit: "I want to submit my project"
