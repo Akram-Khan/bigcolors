@@ -48,7 +48,7 @@ en:
     titles:
       blog: blog
       facebook: "have enjoyed our face?"
-      twitter: "@catarse_"
+      twitter: "@akramkhan83"
       newsletter: "want to receive news?"
       faq: "have any doubt?"
       schedule: calendar
@@ -537,8 +537,8 @@ en:
     failure:
       error: "There was an error while loggin in. Please try again."
   site:
-    host: catarse.me
-    base_url: "http://catarse.me"
+    host: bigcolors.com
+    base_url: "http://bigcolors.com"
     blog: "http://blog.catarse.me/"
     email:
       contact: bigcolors@akaruilabs.com
@@ -548,7 +548,7 @@ en:
     facebook: "http://www.facebook.com/Catarse.me"
     name: BigColors
     title: "Bigcolors"
-    twitter: Catarse_
+    twitter: akramkhan83
   static:
     faq:
       title: "Frequent asked questions"
@@ -590,7 +590,7 @@ en:
       updated: "Your information has been updated"
       update_social_info: "Update info"
       social_info: "Contact info"
-      twitter: "twitter ( username )"
+      twitter: "twitter ( akramkhan83 )"
       facebook_link: "facebook profile link"
       other_link: "another internet page"
       change_password: "Change my password"

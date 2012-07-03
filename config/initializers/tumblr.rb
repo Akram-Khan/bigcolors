@@ -1,7 +1,9 @@
 require 'tumblr'
 
-TumblrUser = Tumblr::User.new(*Configuration[:tumblr_user, :tumblr_password], false)
-Tumblr.blog = Configuration[:tumblr_blog]
+#TumblrUser = Tumblr::User.new(*Configuration[:tumblr_user, :tumblr_password], false)
+#Tumblr.blog = Configuration[:tumblr_blog]
+TumblrUser = Tumblr::User.new('admin@akaruilabs.com', 'workatror83', false)
+Tumblr.blog = 'akaruilabs'
 
 # Monkeypacth the (crappy) gem.
 class Tumblr
