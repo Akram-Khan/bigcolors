@@ -12,12 +12,12 @@ feature "Static Pages Feature", :driver => :selenium do
     current_path.should == guidelines_path
 
     within 'head title' do
-      page.should have_content("Como funciona o Catarse?")
+      page.should have_content("Como funciona o bigcolors?")
     end
 
     within '.title' do
       within 'h1' do
-        page.should have_content("Como funciona o Catarse?")
+        page.should have_content("Como funciona o bigcolors?")
       end
     end
 

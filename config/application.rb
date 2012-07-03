@@ -1,8 +1,11 @@
 require File.expand_path('../boot', __FILE__)
 require 'rails/all'
+require 'rake/dsl_definition'
+require 'rake'
 Bundler.require(:default, Rails.env) if defined?(Bundler)
 module Catarse
   class Application < Rails::Application
+    include Rake::DSL
     config.active_record.schema_format = :sql
     config.autoload_paths += %W(#{config.root}/lib #{config.root}/lib/** #{config.root}/app/presenters #{config.root}/app/presenters/** #{config.root}/app/business/ #{config.root}/app/business/**)
     config.encoding = "utf-8"

@@ -11,7 +11,7 @@ feature "New Project Feature", :driver => :selenium do
     current_path.should == guidelines_path
 
     within ".bootstrap-form" do
-      check "Eu li e entendi como funciona o Catarse."
+      check "Eu li e entendi como funciona o bigcolors."
       click_button "Quero enviar meu projeto"
     end
     verify_translations
