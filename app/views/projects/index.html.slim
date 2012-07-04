@@ -52,7 +52,7 @@
 
         .facebook
           h3= t('sidebar.titles.facebook')
-          .fb-like data-href="http://facebook.com/catarse.me" data-send="false" data-width="171" data-show-faces="true"
+          .fb-like data-href="http://facebook.com/bigcolors" data-send="false" data-width="171" data-show-faces="true"
         .twitter
           h3= t('sidebar.titles.twitter')
           - @last_tweets.each do |tweet|
@@ -66,10 +66,6 @@
             = hidden_field_tag 'url_error', "http://#{request.env['HTTP_HOST']}/?newsletter=error"
             = text_field_tag 'email', nil, placeholder: 'email@email.com'
             = submit_tag t('sidebar.buttons.newsletter')
-        .faq
-          h3= t('sidebar.titles.faq')
-          = link_to image_tag('catarse/faq_video.png'), '#'
-
     .clearfix
 
   .container.partners

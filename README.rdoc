@@ -1,1 +1,1 @@
-BigColors
+bigcolors

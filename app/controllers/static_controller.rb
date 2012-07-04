@@ -32,6 +32,12 @@ class StaticController < ApplicationController
     @title = t('static.faq.title')
   end
 
+  def privacy
+  end
+
+  def terms
+  end
+
   def sitemap
     # TODO: update this sitemap to use new homepage logic
     @home_page = Project.includes(:user, :category).visible.home_page.limit(6).order('"order"').all

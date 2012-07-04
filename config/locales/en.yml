@@ -14,25 +14,25 @@ en:
       subtitle: backers
     goal:
       subtitle: "total of %{total}"
-  project_by: "project by"
+  project_by: "start-up by"
   tell_about_this_back: "Tell the world about your support!"
-  share_my_backs: "See the projects that i support in BigColors!"
-  tell_about_this_project: "Tell the world about your project!"
-  share_my_projects: "See my created projects in BigColors!"
-  count_backed_projects: "backed %{total} projects"
+  share_my_backs: "See the start-ups that i support in bigcolors!"
+  tell_about_this_project: "Tell the world about your start-up!"
+  share_my_projects: "See my created start-ups in bigcolors!"
+  count_backed_projects: "backed %{total} start-ups"
   footer:
     titles:
       info: "Useful Information"
       opendata: "nice statistics"
-      social: "like the BigColors?"
+      social: "like the bigcolors?"
       newsletter: "receive our newslatter"
     stats:
       backers: Backers
       backs: Backs
       total_backed: Backed
       users: Users
-      funded_projects: "Successful projects"
-      active_projects: "Projects on air now"
+      funded_projects: "Successful start-ups"
+      active_projects: "Start-ups on air now"
     links:
       how_works: "How It works"
       faq: F.A.Q./Help
@@ -41,9 +41,9 @@ en:
       contact: Contact
   main:
     links:
-      selected: "explore more projects selected"
-      expiring: "explore more expiring projects"
-      recents: "explore more recent projects"
+      selected: "explore more start-ups selected"
+      expiring: "explore more expiring start-ups"
+      recents: "explore more recent start-ups"
   sidebar:
     titles:
       blog: blog
@@ -107,11 +107,11 @@ en:
     models:
       backer: Backer
       category: Category
-      project: Project
+      project: Start-up
       reward: Reward
   backer:
     display_confirmed_at: "%{time_ago} ago"
-    reward_must_be_from_project: "must be from the same project"
+    reward_must_be_from_project: "must be from the same start-up"
     should_not_back_if_maximum_backers_been_reached: "has reached its maximum backers"
     value_must_be_at_least_rewards_value: "must be at least %{minimum_value} for the selected reward"
   backer_plural: backers
@@ -125,7 +125,7 @@ en:
       back_date: "Back date"
       current_credits_html: "Your current balance is <span id=\"current_credits\">%{credits}</span> in credits."
       important_html: "You have <strong>up to 180 days after the payment date</strong> to ask for a refund. If you ask for a refund, the value of your payment will be deducted from your credits."
-      project: Project
+      project: Start-up
       refund_expration_date: "Refund deadline"
       refunded: Refunded
       refunds_title: "Payments that can be refunded"
@@ -144,7 +144,7 @@ en:
   credits_mailer:
     request_refund_from:
       subject: "Refund request by %{name}"
-      subject_html: "User %{name} requested refund for the back %{backer_key} to the project %{backer_project} in the amount of %{backer_value} made by %{backer_payment_service} gateway."
+      subject_html: "User %{name} requested refund for the back %{backer_key} to the start-up %{backer_project} in the amount of %{backer_value} made by %{backer_payment_service} gateway."
   curated_pages:
     index:
       title: "Curated pages"
@@ -221,12 +221,12 @@ en:
       quick_explore: "Quick search"
       recent: Recent
       recommended: Recommended
-      subtitle: "Explore the projects, find the ones that touch you, and make them happen!"
+      subtitle: "Explore the start-ups, find the ones that touch you, and make them happen!"
       successful: Successful
-      title: "Discover amazing projects"
-    title: "Explore the projects"
+      title: "Discover amazing start-ups"
+    title: "Explore the start-ups"
     project:
-      empty: "Hey, we didn't find any project with the text you searched. Wanna try some new words? =D"
+      empty: "Hey, we didn't find any start-up with the text you searched. Wanna try some new words? =D"
   formtastic:
     hints:
       backer:
@@ -234,14 +234,14 @@ en:
         value: "You chose the amount ;) starting with $10, any amount is great."
       project:
         about: "Tell us a little about what you want to do, how much you need and what for. Be brief and punctual, but don't forget to give the readers something that moves them. After all, it's your creation and they need to see your passion taking place!"
-        category: "Choose in which category you want your project to appear. Don't worry if you think it fits in more than one. Choose the one where you want people to find your project."
+        category: "Choose in which category you want your start-up to appear. Don't worry if you think it fits in more than one. Choose the one where you want people to find your start-up."
         expires_at: "Finally, choose how long you want your campaign to last. Again, this is a strategic choice: if you put a lot of time, people will lose interest along the way; if put too little, you may not reach the minimum in time."
-        goal: "Think hard about the amount you will ask for. It should be the <strong>minimum necessary for the project to happen</strong>. Nothing more, nothing less. If you ask too much, your chances of reaching the minimum will be lower; if you don't ask for enough, you won't be able to execute the project and consequently will have your reputation damaged, hindering future achievements."
-        headline: "Summarize your project in 140 characters. This sentence will be the first contact people will have with your project, before even seeing the video. Be creative, clear and direct :)"
-        name: "What's the name of your project? Choose with care, because this will influence the chances of your project reaching the goal."
-        video_url: "Paste the URL from a <a href=\"http://vimeo.com\" target=\"_blank\">Vimeo</a> video. We chose Vimeo because it looks better and doesn't have ads. This way, your project will look better too! <strong>Produce your video the best you can and make a video specifically for your campaign</strong>. If there is a single thing that differentiates the projects that reach the goal from the others is the video. Observe ;)"
+        goal: "Think hard about the amount you will ask for. It should be the <strong>minimum necessary for the start-up to happen</strong>. Nothing more, nothing less. If you ask too much, your chances of reaching the minimum will be lower; if you don't ask for enough, you won't be able to execute the start-up and consequently will have your reputation damaged, hindering future achievements."
+        headline: "Summarize your start-up in 140 characters. This sentence will be the first contact people will have with your start-up, before even seeing the video. Be creative, clear and direct :)"
+        name: "What's the name of your start-up? Choose with care, because this will influence the chances of your start-up reaching the goal."
+        video_url: "Paste the URL from a <a href=\"http://vimeo.com\" target=\"_blank\">Vimeo</a> video. We chose Vimeo because it looks better and doesn't have ads. This way, your start-up will look better too! <strong>Produce your video the best you can and make a video specifically for your campaign</strong>. If there is a single thing that differentiates the start-ups that reach the goal from the others is the video. Observe ;)"
       reward:
-        description: "Describe your reward in a way that arouses people's interest to back the project. Don't be shy!"
+        description: "Describe your reward in a way that arouses people's interest to back the start-up. Don't be shy!"
         maximum_backers: "If your reward is limited, tell us the maximum backers."
         minimum_value: "This is the minimum amount to choose this reward."
     labels:
@@ -251,12 +251,12 @@ en:
         reward: "Select your reward"
         value: "With how much do you want to back?"
       comment:
-        comment: "Leave your comment about this project"
+        comment: "Leave your comment about this start-up"
       project:
-        about: "About your project"
+        about: "About your start-up"
         expires_at: "What's the deadline to reach your goal?"
         goal: "How much do you need?"
-        name: "Name your project"
+        name: "Name your start-up"
         video_url: Video
       reward:
         maximum_backers: "Maximum backers (optional)"
@@ -264,8 +264,8 @@ en:
   found_plural: Found
   found_singular: Found
   here: here
-  i_backed: "I backed the project %{name} on @Catarse_"
-  i_just_backed: "I just backed the project %{name} on @Catarse_"
+  i_backed: "I backed the start-up %{name} on @Catarse_"
+  i_just_backed: "I just backed the start-up %{name} on @Catarse_"
   layouts:
     login:
       login_with_facebook: "sign in with your facebook account"
@@ -282,7 +282,7 @@ en:
       account: "my account"
     recommended_header:
       sugest_for_you: "suggested for you"
-      highlight_project: "featured project"
+      highlight_project: "featured start-up"
     user:
       logout: Logout
       my_credits: "My credit"
@@ -308,30 +308,30 @@ en:
       site_title: "Recover password"
   payment_stream:
     thank_you:
-      error: "Ooops. You can only access this page after backing a project."
-      header_subtitle: "Without you maybe this project wouldn't stand a chance. Welcome to the team!"
+      error: "Ooops. You can only access this page after backing a start-up."
+      header_subtitle: "Without you maybe this start-up wouldn't stand a chance. Welcome to the team!"
       header_title: "Thank you! :D"
       text_subtitle: "Tell everyone what you just did"
       text_title_html: "You are now part of the group that does everything to make %{link} happen."
       title: "Thank you"
   project:
     start:
-      email_subject: "Your project has been received by BigColors's team"
-      email_text: "Thanks for trusting your project to BigColors :)<br><br>We know that you expect a quick reply but, to be quite frank, we take up to 4 days to resnpond, ok? That is because we have a small team working on several projects. Note that the reply can come sooner, so keep atention to your inbox.<br><br>Meanwhile it is worth to get to know the projects that are online (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any of them- back it! This is the way to show support for the crowdfunding culture in Brazil and to feed the ecosystem that keeps growing around BigColors.<br><br>Besides that, you will get some inspiration for your own project...<br><br>Stay tuned for updates in <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> and get some deeper knowledge about BigColors reading the posts in our <a href='%{blog}' style='color: #E75297 !important;'>blog</a>.<br><br>If you have any doubt, send an email to: %{email}"
-      notification_text: "Your project has been received by BigColors's team"
+      email_subject: "Your start-up has been received by bigcolors's team"
+      email_text: "Thanks for trusting your start-up to bigcolors :)<br><br>We know that you expect a quick reply but, to be quite frank, we take up to 4 days to resnpond, ok? That is because we have a small team working on several start-ups. Note that the reply can come sooner, so keep atention to your inbox.<br><br>Meanwhile it is worth to get to know the start-ups that are online (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any of them- back it! This is the way to show support for the crowdfunding culture in Brazil and to feed the ecosystem that keeps growing around bigcolors.<br><br>Besides that, you will get some inspiration for your own start-up...<br><br>Stay tuned for updates in <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> and get some deeper knowledge about bigcolors reading the posts in our <a href='%{blog}' style='color: #E75297 !important;'>blog</a>.<br><br>If you have any doubt, send an email to: %{email}"
+      notification_text: "Your start-up has been received by bigcolors's team"
     finish:
       successful:
-        email_subject: "Hooray! The project you backed was successful on BigColors!"
-        email_text: "The project %{project_link}, which you backed, was successfuly funded on BigColors! Time to celebrate :D<br><br>Thank you very much, from the heart, for your support! Without you this would never have been possible. Soon, %{user_link} will contact you to deliver your reward. Meanwhile, share with everybody this success!"
-        facebook_text: "Hooray! The project '%{name}', which I backed, was successful on BigColors!"
-        notification_text: "Hooray! The project %{link} that you backed was successful! Spread the word!"
+        email_subject: "Hooray! The start-up you backed was successful on bigcolors!"
+        email_text: "The start-up %{project_link}, which you backed, was successfuly funded on bigcolors! Time to celebrate :D<br><br>Thank you very much, from the heart, for your support! Without you this would never have been possible. Soon, %{user_link} will contact you to deliver your reward. Meanwhile, share with everybody this success!"
+        facebook_text: "Hooray! The start-up '%{name}', which I backed, was successful on bigcolors!"
+        notification_text: "Hooray! The start-up %{link} that you backed was successful! Spread the word!"
         reward_notification_text: "Soon, %{link} will contact you to deliver your reward. Enjoy!"
-        twitter_text: "Hooray! The project '%{name}', which I backed, was successful on @Catarse_! %{short_url}"
+        twitter_text: "Hooray! The start-up '%{name}', which I backed, was successful on @Catarse_! %{short_url}"
       unsuccessful:
-        email_subject: "The project you backed wasn't funded on BigColors."
-        email_text: "The project %{project_link}, that you backed, was not funded. Maybe next time!<br><br>Because of this, you received <strong>%{value}</strong> in credits to back other projects. If you prefer, you can ask for a refund %{credits_link}."
-        notification_text: "You received %{value} in credits to back other projects. If you prefer, you can request a refund %{link}."
-        unsuccessful_text: "The project %{link} that you backed wasn't funded. Maybe next time!"
+        email_subject: "The start-up you backed wasn't funded on bigcolors."
+        email_text: "The start-up %{project_link}, that you backed, was not funded. Maybe next time!<br><br>Because of this, you received <strong>%{value}</strong> in credits to back other start-ups. If you prefer, you can ask for a refund %{credits_link}."
+        notification_text: "You received %{value} in credits to back other start-ups. If you prefer, you can request a refund %{link}."
+        unsuccessful_text: "The start-up %{link} that you backed wasn't funded. Maybe next time!"
     verify_if_video_exists_on_vimeo: "must exist on Vimeo"
     vimeo_regex_validation: "only Vimeo URLs are allowed"
     display_status:
@@ -346,14 +346,14 @@ en:
     back_project:
       project_warning:
         not_successful:
-          expired: "This project didn't reach the goal of %{goal} until %{date} and wasn't funded"
-          not_expired: "This project will only be funded if at least %{goal} is backed until %{date}"
+          expired: "This start-up didn't reach the goal of %{goal} until %{date} and wasn't funded"
+          not_expired: "This start-up will only be funded if at least %{goal} is backed until %{date}"
         successful:
-          expired: "This project was successful and was funded on %{date}"
-          not_expired: "This project will be successful and funded on %{date}"
-        waiting_confirmation: "Waiting confirmation from payments to know if this project will be funded."
+          expired: "This start-up was successful and was funded on %{date}"
+          not_expired: "This start-up will be successful and funded on %{date}"
+        waiting_confirmation: "Waiting confirmation from payments to know if this start-up will be funded."
       reached_of: "Reached of"
-      submit: "Back this project"
+      submit: "Back this start-up"
     backer:
       anonymous_backer: "Anonymous backer"
       anonymous_description: "Opted to remain incognito"
@@ -361,21 +361,21 @@ en:
     backers:
       checkout:
         moip_error: "Ooops. There was an error while sending your payment to MoIP. Please try again."
-        no_credits: "You don't have enough credits to back this project."
+        no_credits: "You don't have enough credits to back this start-up."
         paypal_cancel: "Your PayPal payment was canceled. Please try again."
-        paypal_description: "Back project"
+        paypal_description: "Back start-up"
         paypal_error: "Ooops. There was an error while sending your payment to PayPal. Please try again."
         success: "Your back was successfully made. Thanks a lot!"
       new:
-        cannot_back: "It's not possible to back this project right now. Please, back other projects."
+        cannot_back: "It's not possible to back this start-up right now. Please, back other start-ups."
         header:
-          subtitle: "You are a few steps from making the difference and becoming part of this project."
+          subtitle: "You are a few steps from making the difference and becoming part of this start-up."
           title: "Oohh yeah!"
-        no_reward: "Thanks. I just want to help the project."
+        no_reward: "Thanks. I just want to help the start-up."
         submit: "Review and proceed to checkout"
         title: "Back %{name}"
       review:
-        credits_notice_html: "This back will be payed with your credits. After the confirmation, you will have <strong>%{credits}</strong> in credits to back other projects."
+        credits_notice_html: "This back will be payed with your credits. After the confirmation, you will have <strong>%{credits}</strong> in credits to back other start-ups."
         error: "Ooops. There was an error while registering your back. Please try again."
         international:
           description: "You can use PayPal to make international payments"
@@ -387,38 +387,38 @@ en:
         submit:
           credits: "Confirm backing with credits"
           moip: "Proceed to MoIP's checkout"
-        subtitle: "This is the last step to make the difference and become part of this project."
+        subtitle: "This is the last step to make the difference and become part of this start-up."
         title: "Fill in and review your data"
         choose_payment: "How do you want to pay?"
         choose_credit_card: "Credit Card"
         choose_boleto: "Billet Banking"
         you_are_about_html: "You are about to become part of the group that does everything to make %{link} happen."
     create:
-      success: "Your project was successfully created! We'll soon contact you. Thanks a lot!"
+      success: "Your start-up was successfully created! We'll soon contact you. Thanks a lot!"
     form:
       add_reward: "Add reward"
-      important_html: "Please notice that BigColors will charge 8% if your project is successful, and our payment gateways (MoIP and Paypal) charge a fee that varies, usually, from 4% to 5% per transaction. Add this values to your budget in order to execute your project with no surprises."
+      important_html: "Please notice that bigcolors will charge 8% if your start-up is successful, and our payment gateways (MoIP and Paypal) charge a fee that varies, usually, from 4% to 5% per transaction. Add this values to your budget in order to execute your start-up with no surprises."
       project_warning:
-        content_html: "Want to have your project selected? Don't forget to read %{link}."
+        content_html: "Want to have your start-up selected? Don't forget to read %{link}."
         help_link: "our guide"
-      rewards_description: "We believe that the best way to inspire people to back a project is offering excelent – and creative! – rewards. Everybody loves limited editions, unique things and joyfull experiences (parties, candies, balloon traveling!). Spend some time devising creative rewards and people will be interested."
+      rewards_description: "We believe that the best way to inspire people to back a start-up is offering excelent – and creative! – rewards. Everybody loves limited editions, unique things and joyfull experiences (parties, candies, balloon traveling!). Spend some time devising creative rewards and people will be interested."
       rewards_title: Rewards
-      submit: "Submit project"
+      submit: "Submit start-up"
     index_header:
-      subtitle_html: "Fund projects collaboratively and become part of something bigger.<br/>Promote a collective catharsis! You're the missing part in this story."
-      title: "Make the projects you believe in happen"
+      subtitle_html: "Fund start-ups collaboratively and help launch the next big thing.<br/>Get funding for your start-up from people that love your idea."
+      title: "Be an angel and support the start-ups you believe in"
     new:
       subtitle: "The time to make it happen is now! We really want to know what you're up to..."
-      title: "Submit your project"
+      title: "Submit your start-up"
     pending:
       can_finish: "Can finish?"
       finished: Finished?
       home_page: "Home page?"
       id: Id
       name: Name
-      no_projects: "No projects found."
+      no_projects: "No start-up found."
       order: Order
-      project: Project
+      project: Start-up
       slug: Slug
       recommended: Recommended?
       rejected: Rejected?
@@ -433,7 +433,7 @@ en:
       id: Id
       key: Key
       no_backers: "No backers found."
-      project: Project
+      project: Start-up
       refunded: Refunded?
       requested_refund: "Requested refund?"
       reward: Reward
@@ -449,13 +449,13 @@ en:
       backed: backed
       reached: reached
     project_backers:
-      empty: "Nobody backed this project so far. How about being the first one?"
+      empty: "Nobody backed this start-up so far. How about being the first one?"
     project_header:
-      subtitle_html: "A project by %{link}"
-      without_city: "A project in %{category_name}, by %{author}"
-      with_city: "A project in %{category_name}, in %{city}, by %{author}"
+      subtitle_html: "A start-up by %{link}"
+      without_city: "A start-up in %{category_name}, by %{author}"
+      with_city: "A start-up in %{category_name}, in %{city}, by %{author}"
     project_updates:
-      empty: "This project didn't have updates yet. But wait and see =D"
+      empty: "This start-up didn't have updates yet. But wait and see =D"
       submit: "Send update"
       comment: "Update text"
       title: "Title of the update"
@@ -465,11 +465,11 @@ en:
       reward_title: "For %{minimum} or more"
       title: "Back and receive..."
     send_mail:
-      success: "Your project was successfully sent! We'll soon contact you. Thanks a lot!"
+      success: "Your start-up was successfully sent! We'll soon contact you. Thanks a lot!"
     show:
-      rejected: "This project was not selected to participate on BigColors. Maybe next time! :)"
-      waiting: "This project is waiting for approval and soon we'll know if it will go online on BigColors ;)"
-      about_title: "About this project"
+      rejected: "This start-up was not selected to participate on bigcolors. Maybe next time! :)"
+      waiting: "This start-up is waiting for approval and soon we'll know if it will go online on bigcolors ;)"
+      about_title: "About this start-up"
       menu:
         about: About
         backers: Backers
@@ -477,42 +477,42 @@ en:
         updates: Updates
       share:
         embed: embed
-        embed_title: "Embed this project on your site"
+        embed_title: "Embed this start-up on your site"
         link: Link
         link_title: "Share the link"
-        take_a_look: "Check out the project"
-        title: "Be part of it and share this project"
+        take_a_look: "Check out the start-up"
+        title: "Be part of it and share this start-up"
     start:
-      about: "Describe your project and how much do you need"
-      category: "Project category"
+      about: "Describe your start-up and how much do you need"
+      category: "Start-up category"
       how_much_you_need: "How much do you want to raise?"
       about_hint: "Tell us a little about what you want to do, how much you need and what for. Be brief and punctual, but don't forget to give the readers something that moves them. After all, it's your creation and they need to see your passion taking place!"
       contact: "Leave us your email address so we can contact you"
-      links: "Where can we find more about you and your project?"
-      links_hint: "Leave us as many links as you have, so we can get to know your work and your project better. Doesn't have to be something formal or fancy, just a few useful links."
-      video: "Your project already have a video?"
+      links: "Where can we find more about you and your start-up?"
+      links_hint: "Leave us as many links as you have, so we can get to know your work and your start-up better. Doesn't have to be something formal or fancy, just a few useful links."
+      video: "Your start-up already have a video?"
       video_hint: "A vimeo link"
       twitter: "Have twitter account?"
       facebook: "Have facebook account?"
-      blog: "Have a blog about the project?"
-      know_us_via: "How did you meet BigColors?"
+      blog: "Have a blog about the start-up?"
+      know_us_via: "How did you meet bigcolors?"
       how_works: "How to mobilize backers to raise $ needed for enforcement?"
       project_warning:
-        content_html: "Want to have your project selected? Don't forget to read %{link}."
+        content_html: "Want to have your start-up selected? Don't forget to read %{link}."
         help_link: "our guide"
       rewards: "What rewards do you want to offer?"
-      rewards_hint: "We believe that the best way to inspire people to back a project is offering excelent – and creative! – rewards. Everybody loves limited editions, unique things and joyfull experiences (parties, candies, balloon traveling!). Spend some time devising creative rewards and people will be interested."
-      submit: "Submit the project"
+      rewards_hint: "We believe that the best way to inspire people to back a start-up is offering excelent – and creative! – rewards. Everybody loves limited editions, unique things and joyfull experiences (parties, candies, balloon traveling!). Spend some time devising creative rewards and people will be interested."
+      submit: "Submit the start-up"
       subtitle: "The time to make it happen is now! We really want to know what you're up to..."
-      title: "Submit your project"
+      title: "Submit your start-up"
     twitter:
-      take_a_look: "Check out the project %{name} on @Catarse_"
+      take_a_look: "Check out the start-up %{name} on @Catarse_"
     video_embed:
-      a_project_by_html: "A project by %{link} on"
+      a_project_by_html: "A start-up %{link} on"
   projects_mailer:
     start_project_email:
-      subject: "Project sent by %{name}"
-      subject_html: "Project sent by %{link}"
+      subject: "Start-up sent by %{name}"
+      subject_html: "Start-up sent by %{link}"
   registrations:
     new:
       site_title: "Sign up"
@@ -545,9 +545,9 @@ en:
       payments: bigcolors@akaruilabs.com
       projects: bigcolors@akaruilabs.com
       system: bigcolors@akaruilabs.com
-    facebook: "http://www.facebook.com/Catarse.me"
-    name: BigColors
-    title: "Bigcolors"
+    facebook: "http://www.facebook.com/bigcolors"
+    name: bigcolors
+    title: "Crowdfunding platform for start-ups"
     twitter: akramkhan83
   static:
     faq:
@@ -555,10 +555,10 @@ en:
     how_it_works:
       title: "How it Works"
     guidelines:
-      accept: "I have read and understood how BigColors works."
-      submit: "I want to submit my project"
-      subtitle: "Before submitting your project, learn a little about how BigColors works."
-      title: "How does BigColors work?"
+      accept: "I have read and understood how bigcolors works."
+      submit: "I want to submit my start-up"
+      subtitle: "Before submitting your start-up, learn a little about how bigcolors works."
+      title: "How does bigcolors work?"
     privacy:
       title: "Privacy Policy"
     terms:
@@ -566,25 +566,25 @@ en:
   terms: "terms of use"
   user:
     backs_text:
-      many: "Backed this and other %{total} projects"
-      one: "Backed only this project until now"
-      two: "Backed this and 1 other project"
+      many: "Backed this and other %{total} start-up"
+      one: "Backed only this start-up until now"
+      two: "Backed this and 1 other start-up"
     no_name: Unnamed
   users:
     show:
       tabs:
-        backed_projects: "Backed projects"
-        created_projects: "Created projects"
+        backed_projects: "Backed start-up"
+        created_projects: "Created start-up"
         comments: Comments
         credits: Credits
         settings: Settings
     backs:
       anonymous: "Anonymous back."
-      no_backs: "%{name} haven't backed any project yet. But we know it's just a matter of time! :D"
-      no_backs_current_user_html: "You haven't backed any project yet. What about <a href=\"/\">starting now</a>?"
+      no_backs: "%{name} haven't backed any start-up yet. But we know it's just a matter of time! :D"
+      no_backs_current_user_html: "You haven't backed any start-up yet. What about <a href=\"/\">starting now</a>?"
       no_reward: "You didn't pick a reward"
-      title: "Projects %{name} has backed"
-      title_current_user: "Projects I've backed"
+      title: "Start-ups %{name} has backed"
+      title_current_user: "Start-ups I've backed"
       your_reward: "Your reward"
     current_user_fields:
       updated: "Your information has been updated"
@@ -595,29 +595,29 @@ en:
       other_link: "another internet page"
       change_password: "Change my password"
       current_password_hint: "<i>We need your current password to confirm your changes.</i>"
-      email_hint: "Your email will only be used for communications from BigColors and from the projects you back. It won't be visible in your profile. When you back a project, we will give your email to the project owner so he can provide your rewards."
+      email_hint: "Your email will only be used for communications from bigcolors and from the start-up you back. It won't be visible in your profile. When you back a start-up, we will give your email to the start-up owner so he can provide your rewards."
       email_tooltip: "Click here to fill your email..."
       gravatar_hint_html: "Want to change your picture? Use %{link} with your email. It's as simple as uploading an image and works for other sites as well ;)"
       my_data: "My profile"
-      newsletter: "I want to receive news from BigColors via email"
+      newsletter: "I want to receive news from bigcolors via email"
       password_hint: "<i>Leave blank if you don't want to change it.</i>"
     header:
       bio_tooltip: "Click here to write about you..."
       name_tooltip: "Click here to fill your name..."
     projects:
-      no_projects: "%{name} haven't started any project on BigColors yet. We wonder if inspiration will hit one of these days!"
-      no_projects_current_user_html: "You haven't submitted any project to BigColors yet. Let the inspiration flow and %{link} to start!"
-      title: "%{name}'s projects"
-      title_current_user: "My projects"
+      no_projects: "%{name} haven't started any start-up on bigcolors yet. We wonder if inspiration will hit one of these days!"
+      no_projects_current_user_html: "You haven't submitted any start-up to bigcolors yet. Let the inspiration flow and %{link} to start!"
+      title: "%{name}'s start-up"
+      title_current_user: "My start-ups"
   users_mailer:
     notification_email:
       alt: "You must enable images in order to correctly view this message."
       forward: "Foward to your friends"
       hello: Hi
-      intro: "You are receiving this message because you signed up on BigColors"
+      intro: "You are receiving this message because you signed up on bigcolors"
       mailee: "Message delivered by Mailee.me"
       salutation: "Big hugs,"
-      signature: "BigColors's Team"
+      signature: "bigcolors's Team"
       unsubscribe: Unsubscribe
       unsubscribe_long: "If you don't want to receive these emails"
       weblink: "View on the web"
