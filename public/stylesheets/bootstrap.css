@@ -10520,7 +10520,7 @@ body #logos .power a {
 }
 /* line 42, ../../app/stylesheets/resources/projects/_index.sass */
 [data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .partners h2 {
-  background: url("/images/catarse/partners_icon26x26.png") left top no-repeat;
+  /*background: url("/images/catarse/partners_icon26x26.png") left top no-repeat;*/
   text-indent: 35px;
   padding-bottom: 9px;
   margin-top: -5px;

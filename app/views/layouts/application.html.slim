@@ -81,5 +81,5 @@ html lang="#{I18n.locale}" xmlns:fb="http://ogp.me/ns/fb#"
               = hidden_field_tag 'url_ok', "http://#{request.env['HTTP_HOST']}/?newsletter=ok"
               = hidden_field_tag 'url_error', "http://#{request.env['HTTP_HOST']}/?newsletter=error"
               = text_field_tag 'email', nil, placeholder: 'email@email.com'
-              = submit_tag 'assinar'
+              = submit_tag 'submit'
           .clearfix
