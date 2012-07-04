@@ -539,12 +539,12 @@ en:
   site:
     host: bigcolors.com
     base_url: "http://bigcolors.com"
-    blog: "http://blog.catarse.me/"
+    blog: "http://freerangekids.wordpress.com/"
     email:
-      contact: bigcolors@akaruilabs.com
-      payments: bigcolors@akaruilabs.com
-      projects: bigcolors@akaruilabs.com
-      system: bigcolors@akaruilabs.com
+      contact: info@bigcolors.com
+      payments: info@bigcolors.com
+      projects: info@bigcolors.com
+      system: info@bigcolors.com
     facebook: "http://www.facebook.com/bigcolors"
     name: bigcolors
     title: "Crowdfunding platform for start-ups"

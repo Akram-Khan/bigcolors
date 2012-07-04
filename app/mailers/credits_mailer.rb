@@ -5,6 +5,6 @@ class CreditsMailer < ActionMailer::Base
   def request_refund_from(backer)
     @backer = backer
     @user = backer.user
-    mail(:to => 'bigcolors@akaruilabs.com', :subject => I18n.t('credits_mailer.request_refund_from.subject', :name => @user.name))
+    mail(:to => 'info@bigcolors.com', :subject => I18n.t('credits_mailer.request_refund_from.subject', :name => @user.name))
   end
 end
