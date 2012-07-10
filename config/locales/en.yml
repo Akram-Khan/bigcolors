@@ -401,7 +401,7 @@ en:
       project_warning:
         content_html: "Want to have your start-up selected? Don't forget to read %{link}."
         help_link: "our guide"
-      rewards_description: "We believe that the best way to inspire people to back a start-up is offering excelent – and creative! – rewards. Everybody loves limited editions, unique things and joyfull experiences (parties, candies, balloon traveling!). Spend some time devising creative rewards and people will be interested."
+      rewards_description: "We believe that the best way to inspire people to back a start-up is offering excelent – and creative! – share rewards. Everybody loves something unique that will capture their interest. (i.e. Each investment over $500 gets a copy of the product you are producing, or $100 gives you free access to our site for 1 year). Spend some time devising creative share rewards and people will be interested."
       rewards_title: Rewards
       submit: "Submit start-up"
     index_header:
@@ -495,7 +495,7 @@ en:
       twitter: "Have twitter account?"
       facebook: "Have facebook account?"
       blog: "Have a blog about the start-up?"
-      know_us_via: "How did you meet bigcolors?"
+      know_us_via: "How did you find out about Bigcolors?"
       how_works: "How to mobilize backers to raise $ needed for enforcement?"
       project_warning:
         content_html: "Want to have your start-up selected? Don't forget to read %{link}."
