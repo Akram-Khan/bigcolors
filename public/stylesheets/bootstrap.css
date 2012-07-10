@@ -796,7 +796,7 @@ div.project .box .follow_project:hover {
   width: 130px;
   font-family: Arial;
   font-size: 12px;
-  color: #2FB8AC;
+  color: #2fb8ac;
   font-weight: bold;
 }
 /* line 155, ../../app/stylesheets/miv/_projects_land.sass */
@@ -1010,7 +1010,7 @@ div.project .box .follow_project:hover {
 }
 /* line 97, ../../app/stylesheets/miv/_embed.sass */
 #video_embed h2 a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 100, ../../app/stylesheets/miv/_embed.sass */
 #video_embed #platform_link h1 {
@@ -1061,7 +1061,7 @@ div.project .box .follow_project:hover {
   margin-left: 10px;
   margin-right: 5px;
   padding: 6px 15px;
-  background: #2FB8AC;
+  background: #2fb8ac;
   color: white;
   font-family: Arial;
   font-size: 11px;
@@ -8252,19 +8252,35 @@ body #page_content .container .list_title .title {
   max-width: 236px;
   height: 30px;
   padding: 5px 10px 5px 9px;
-  background: url("/images/catarse/title_component241x40.png") left top no-repeat;
+  background: left top no-repeat;
 }
 /* line 37, ../../app/stylesheets/content/_body.sass */
 body #page_content .container .list_title .title h2 {
   margin-left: 20px;
   float: left;
-  color: white;
   font-family: "Lato-Regular";
   font-size: 18px;
 }
 /* line 43, ../../app/stylesheets/content/_body.sass */
 body #page_content .container .projects {
   padding-top: 20px;
+}
+/* line 45, ../../app/stylesheets/content/_body.sass */
+body #logos {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  border-radius: 8px;
+  padding: 0 10px 60px 10px;
+  margin-top: 60px;
 }
 /* line 35, ../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-960-plugin-0.10.4/stylesheets/960/_grid.sass */
 body #logos .grid_1, body #logos .grid_2, body #logos .grid_3, body #logos .grid_4, body #logos .grid_5, body #logos .grid_6, body #logos .grid_7, body #logos .grid_8, body #logos .grid_9, body #logos .grid_10, body #logos .grid_11, body #logos .grid_12, body #logos .grid_13, body #logos .grid_14, body #logos .grid_15, body #logos .grid_16 {
@@ -9090,7 +9106,7 @@ body #logos .power a {
 }
 /* line 72, ../../app/stylesheets/content/_header.sass */
 #header nav.menu a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 74, ../../app/stylesheets/content/_header.sass */
 #header .search {
@@ -9150,7 +9166,7 @@ body #logos .power a {
   border-radius: 4px;
   padding: 0 10px 0 10px;
   border: 1px #dfdfdf solid;
-  background: #046D8B !important;
+  background: #046d8b !important;
 }
 /* line 35, ../../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-960-plugin-0.10.4/stylesheets/960/_grid.sass */
 .footer .grid_1, .footer .grid_2, .footer .grid_3, .footer .grid_4, .footer .grid_5, .footer .grid_6, .footer .grid_7, .footer .grid_8, .footer .grid_9, .footer .grid_10, .footer .grid_11, .footer .grid_12, .footer .grid_13, .footer .grid_14, .footer .grid_15, .footer .grid_16 {
@@ -9485,7 +9501,7 @@ body #logos .power a {
 .footer .content h3 {
   font-family: "Lato-Bold";
   font-size: 18px;
-  color: #2FB8AC;
+  color: #2fb8ac;
   padding-bottom: 40px;
   padding-top: 5px;
 }
@@ -9517,7 +9533,7 @@ body #logos .power a {
 }
 /* line 31, ../../app/stylesheets/content/_footer.sass */
 .footer .content .info ul li a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 34, ../../app/stylesheets/content/_footer.sass */
 .footer .content .opendata {
@@ -9602,13 +9618,13 @@ body #logos .power a {
 /* line 80, ../../app/stylesheets/content/_footer.sass */
 .footer .content .social form input[type="text"]:focus {
   outline: none;
-  border: 1px #2FB8AC solid;
+  border: 1px #2fb8ac solid;
   border-right: none;
 }
 /* line 84, ../../app/stylesheets/content/_footer.sass */
 .footer .content .social form input[type="submit"] {
   float: left;
-  background: #2FB8AC;
+  background: #2fb8ac;
   width: 82px;
   height: 32px;
   -moz-border-radius: 0 4px 4px 0;
@@ -9721,8 +9737,8 @@ body #logos .power a {
 #recommended_header .project_info .institutional h3 {
   font-family: "Lato-Regular";
   font-size: 18px;
-  color: #2FB8AC;
-  background: url("/images/catarse/institutional_video_icon16x16.png") left top no-repeat;
+  color: #2fb8ac;
+  background: url("/images/catarse/featured.png") left top no-repeat;
   text-indent: 25px;
   padding-bottom: 25px;
 }
@@ -9738,7 +9754,7 @@ body #logos .power a {
 #recommended_header .project_info .info h3 {
   font-family: "Lato-Regular";
   font-size: 18px;
-  color: #2FB8AC;
+  color: #2fb8ac;
   background: url("/images/catarse/min_star12x11.png") left 5px no-repeat;
   text-indent: 18px;
   float: left;
@@ -9768,7 +9784,7 @@ body #logos .power a {
 }
 /* line 80, ../../app/stylesheets/content/_recommended_header.sass */
 #recommended_header .project_info .info h2 a:hover {
-  text-shadow: #2FB8AC 1px 1px 2px;
+  text-shadow: #2fb8ac 1px 1px 2px;
 }
 /* line 82, ../../app/stylesheets/content/_recommended_header.sass */
 #recommended_header .project_info .info .description {
@@ -9882,7 +9898,6 @@ body #logos .power a {
 
 /* line 1, ../../app/stylesheets/content/_sidebar.sass */
 .sidebar {
-  /*min-height: 1635px; */
   min-height: 1050px;
   border-left: 1px #dfdfdf solid;
 }
@@ -9922,7 +9937,7 @@ body #logos .power a {
 }
 /* line 28, ../../app/stylesheets/content/_sidebar.sass */
 .sidebar .content .blog ul li h2 a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 30, ../../app/stylesheets/content/_sidebar.sass */
 .sidebar .content .blog ul li h2 img {
@@ -9949,7 +9964,7 @@ body #logos .power a {
 }
 /* line 47, ../../app/stylesheets/content/_sidebar.sass */
 .sidebar .content .blog ul li a.resume:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 49, ../../app/stylesheets/content/_sidebar.sass */
 .sidebar .content .facebook {
@@ -10028,7 +10043,7 @@ body #logos .power a {
   -ms-border-radius: 8px;
   -khtml-border-radius: 8px;
   border-radius: 8px;
-  background: #2FB8AC;
+  background: #2fb8ac;
   color: white;
   border: none;
   margin-top: 10px;
@@ -10044,83 +10059,6 @@ body #logos .power a {
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px inset;
   -o-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px inset;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px inset;
-}
-/* line 114, ../../app/stylesheets/content/_sidebar.sass */
-.sidebar .content .faq {
-  display: block;
-  clear: both;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
-}
-/* line 120, ../../app/stylesheets/content/_sidebar.sass */
-.sidebar .content .faq h3 {
-  font-family: "Lato-Bold";
-  font-size: 18px;
-  background: url("/images/catarse/faq_icon18x18.png") left 2px no-repeat;
-  text-indent: 28px;
-  color: black;
-  padding-bottom: 15px;
-}
-/* line 128, ../../app/stylesheets/content/_sidebar.sass */
-.sidebar .content .schedule {
-  display: block;
-  clear: both;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-/* line 133, ../../app/stylesheets/content/_sidebar.sass */
-.sidebar .content .schedule h3 {
-  font-family: "Lato-Bold";
-  font-size: 18px;
-  background: url("/images/catarse/schedule_icon19x22.png") left top no-repeat;
-  text-indent: 28px;
-  color: black;
-  padding-top: 4px;
-  padding-bottom: 25px;
-}
-/* line 142, ../../app/stylesheets/content/_sidebar.sass */
-.sidebar .content .schedule ul.events li {
-  width: 100%;
-  margin-bottom: 25px;
-  padding-bottom: 25px;
-  float: left;
-  border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
-}
-/* line 148, ../../app/stylesheets/content/_sidebar.sass */
-.sidebar .content .schedule ul.events li:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-/* line 152, ../../app/stylesheets/content/_sidebar.sass */
-.sidebar .content .schedule ul.events li a {
-  text-decoration: none;
-}
-/* line 155, ../../app/stylesheets/content/_sidebar.sass */
-.sidebar .content .schedule ul.events li a:hover h4, .sidebar .content .schedule ul.events li a:hover p {
-  color: #2FB8AC !important;
-}
-/* line 157, ../../app/stylesheets/content/_sidebar.sass */
-.sidebar .content .schedule ul.events li a h4 {
-  float: left;
-  color: black;
-  font-family: "museo-700";
-  font-size: 20px;
-  margin-right: 10px;
-}
-/* line 163, ../../app/stylesheets/content/_sidebar.sass */
-.sidebar .content .schedule ul.events li a h4 span {
-  display: block;
-  font-family: Arial;
-  font-size: 12px;
-}
-/* line 167, ../../app/stylesheets/content/_sidebar.sass */
-.sidebar .content .schedule ul.events li a p {
-  padding-top: 4px;
-  font-family: Arial;
-  font-size: 12px;
-  color: black;
 }
 
 /* line 2, ../../app/stylesheets/content/_explore.sass */
@@ -10178,7 +10116,7 @@ body #logos .power a {
 }
 /* line 36, ../../app/stylesheets/content/_explore.sass */
 [data-action="index"][data-controller="explore"] #page_content .container .sidebar section ul li a:hover, [data-action="index"][data-controller="explore"] #page_content .container .sidebar section ul li a.selected {
-  background: rgba(231, 82, 151, 0.3);
+  background: rgba(47, 184, 172, 0.3);
 }
 /* line 39, ../../app/stylesheets/content/_explore.sass */
 [data-action="index"][data-controller="explore"] #page_content .container .main .section_header {
@@ -10251,7 +10189,7 @@ body #logos .power a {
 /* line 15, ../../app/stylesheets/content/_sessions.sass */
 [data-controller="passwords"][data-action="new"] #page_content .container .devise_content .links a:hover,
 [data-controller="passwords"][data-action="edit"] #page_content .container .devise_content .links a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 19, ../../app/stylesheets/content/_sessions.sass */
 [data-controller="passwords"][data-action="new"] #page_content .container .devise_content form label,
@@ -10356,7 +10294,7 @@ body #logos .power a {
 }
 /* line 78, ../../app/stylesheets/content/_sessions.sass */
 [data-controller="sessions"][data-namespace="devise"][data-action="new"] .container .form_login .content_form p.forgot_link a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 80, ../../app/stylesheets/content/_sessions.sass */
 [data-controller="sessions"][data-namespace="devise"][data-action="new"] .container .form_register {
@@ -10502,7 +10440,7 @@ body #logos .power a {
   margin-right: 0;
   font-family: "Lato-Regular";
   font-size: 14px;
-  color: #2FB8AC;
+  color: #2fb8ac;
   text-decoration: none;
 }
 /* line 34, ../../app/stylesheets/resources/projects/_index.sass */
@@ -10520,7 +10458,7 @@ body #logos .power a {
 }
 /* line 42, ../../app/stylesheets/resources/projects/_index.sass */
 [data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .partners h2 {
-  /*background: url("/images/catarse/partners_icon26x26.png") left top no-repeat;*/
+  background: url("/images/catarse/partners_icon26x26.png") left top no-repeat;
   text-indent: 35px;
   padding-bottom: 9px;
   margin-top: -5px;
@@ -10619,7 +10557,7 @@ body #logos .power a {
 }
 /* line 36, ../../app/stylesheets/resources/projects/_show.sass */
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content .media_content_update ul.collection_list li a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 38, ../../app/stylesheets/resources/projects/_show.sass */
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content .media_content_update ul.collection_list li strong {
@@ -10677,7 +10615,7 @@ body #logos .power a {
 }
 /* line 68, ../../app/stylesheets/resources/projects/_show.sass */
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content .section_header h4 a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 70, ../../app/stylesheets/resources/projects/_show.sass */
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content .main {
@@ -10806,7 +10744,7 @@ body #logos .power a {
 }
 /* line 135, ../../app/stylesheets/resources/projects/_show.sass */
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content .main #project_about .text a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 140, ../../app/stylesheets/resources/projects/_show.sass */
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content .main .media_content_backers ul.collection_list li {
@@ -10841,7 +10779,7 @@ body #logos .power a {
 }
 /* line 162, ../../app/stylesheets/resources/projects/_show.sass */
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content .main .media_content_backers ul.collection_list li .back_info #text a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 164, ../../app/stylesheets/resources/projects/_show.sass */
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content .main .media_content_backers ul.collection_list li .back_info #confirmed {
@@ -10908,7 +10846,7 @@ body #logos .power a {
 }
 /* line 198, ../../app/stylesheets/resources/projects/_show.sass */
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content .sidebar .user_social li a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 200, ../../app/stylesheets/resources/projects/_show.sass */
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content .sidebar .user_social li.email {
@@ -10974,7 +10912,7 @@ body #logos .power a {
 }
 /* line 240, ../../app/stylesheets/resources/projects/_show.sass */
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content .sidebar #rewards .box p a, [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content .sidebar #rewards .box .on_the_spot_editing a {
-  color: #2FB8AC;
+  color: #2fb8ac;
   text-decoration: none;
 }
 /* line 243, ../../app/stylesheets/resources/projects/_show.sass */
@@ -11119,7 +11057,7 @@ body #logos .power a {
 }
 /* line 322, ../../app/stylesheets/resources/projects/_show.sass */
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content .sidebar .info #creator_profile a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 324, ../../app/stylesheets/resources/projects/_show.sass */
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content .sidebar .info #creator_profile h3 {
@@ -11164,7 +11102,7 @@ body #logos .power a {
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content .sidebar .info #creator_profile .personal_info p.name a {
   font-family: "Lato-Bold";
   font-size: 14px;
-  color: #2FB8AC;
+  color: #2fb8ac;
   text-decoration: none;
 }
 /* line 347, ../../app/stylesheets/resources/projects/_show.sass */
@@ -11216,7 +11154,7 @@ body #logos .power a {
 }
 /* line 378, ../../app/stylesheets/resources/projects/_show.sass */
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content #project_updates #show_formatting_tips a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 380, ../../app/stylesheets/resources/projects/_show.sass */
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content #project_updates #formatting_tips {
@@ -11257,7 +11195,7 @@ body #logos .power a {
 }
 /* line 403, ../../app/stylesheets/resources/projects/_show.sass */
 [data-namespace="null"][data-controller="projects"][data-action="show"] #page_content #project_updates #formatting_tips a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 
 /* line 2, ../../app/stylesheets/resources/projects/_start.sass */
@@ -11309,7 +11247,7 @@ body #logos .power a {
 }
 /* line 30, ../../app/stylesheets/resources/projects/_start.sass */
 [data-controller="projects"][data-action="start"] #page_content .container #project_warning .alert a {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 34, ../../app/stylesheets/resources/projects/_start.sass */
 [data-controller="projects"][data-action="start"] #page_content .container .bootstrap-form form .input {
@@ -11418,7 +11356,7 @@ body #logos .power a {
 }
 /* line 44, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container #project_warning .alert a {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 47, ../../app/stylesheets/resources/projects/_new.sass */
 [data-controller="projects"][data-action="new"] #page_content .container .formtastic.project .accept {
@@ -11628,7 +11566,7 @@ body #logos .power a {
 [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_backers .pagination a, [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_projects .pagination a,
 [data-controller="projects"][data-action="pending"] #page_content .container .project_content #pending_backers .pagination a,
 [data-controller="projects"][data-action="pending"] #page_content .container .project_content #pending_projects .pagination a {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 64, ../../app/stylesheets/resources/projects/_pending_backers.sass */
 [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_backers .table thead th, [data-controller="projects"][data-action="pending_backers"] #page_content .container .project_content #pending_projects .table thead th,
@@ -11716,7 +11654,7 @@ body #logos .power a {
 }
 /* line 34, ../../app/stylesheets/resources/projects/_thank_you.sass */
 #thank_you .project_info h1 a {
-  color: #2FB8AC;
+  color: #2fb8ac;
   text-decoration: none;
 }
 /* line 37, ../../app/stylesheets/resources/projects/_thank_you.sass */
@@ -11934,7 +11872,7 @@ body #logos .power a {
 }
 /* line 105, ../../app/stylesheets/resources/backers/_new.sass */
 [data-controller="backers"][data-namespace="projects"][data-action="new"] #page_content .container .backer_content #back_info .project_name a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 107, ../../app/stylesheets/resources/backers/_new.sass */
 [data-controller="backers"][data-namespace="projects"][data-action="new"] #page_content .container .backer_content #back_info .project_owner {
@@ -11945,7 +11883,7 @@ body #logos .power a {
 }
 /* line 112, ../../app/stylesheets/resources/backers/_new.sass */
 [data-controller="backers"][data-namespace="projects"][data-action="new"] #page_content .container .backer_content #back_info .project_owner a {
-  color: #2FB8AC;
+  color: #2fb8ac;
   text-decoration: none;
   -moz-transition-property: all;
   -webkit-transition-property: all;
@@ -11985,7 +11923,7 @@ body #logos .power a {
 }
 /* line 131, ../../app/stylesheets/resources/backers/_new.sass */
 [data-controller="backers"][data-namespace="projects"][data-action="new"] #page_content .container .backer_content .back_faq h3:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 133, ../../app/stylesheets/resources/backers/_new.sass */
 [data-controller="backers"][data-namespace="projects"][data-action="new"] #page_content .container .backer_content .back_faq p {
@@ -12110,7 +12048,7 @@ body #logos .power a {
 }
 /* line 74, ../../app/stylesheets/resources/backers/_review.sass */
 [data-controller="backers"][data-namespace="projects"][data-action="review"] #page_content .container #project_review #international_payment a {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 76, ../../app/stylesheets/resources/backers/_review.sass */
 [data-controller="backers"][data-namespace="projects"][data-action="review"] #page_content .container #project_review #international_payment .international_important {
@@ -12350,7 +12288,7 @@ body #logos .power a {
 }
 /* line 25, ../../app/stylesheets/resources/static/_default.sass */
 [data-controller="static"] #page_content .container .static_default #how_it_works.alert a {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 27, ../../app/stylesheets/resources/static/_default.sass */
 [data-controller="static"] #page_content .container .static_default .default_text {
@@ -12428,7 +12366,7 @@ body #logos .power a {
 }
 /* line 6, ../../app/stylesheets/resources/_curated_page.sass */
 [data-controller="curated_pages"][data-action="show"] #page_content a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 9, ../../app/stylesheets/resources/_curated_page.sass */
 [data-controller="curated_pages"][data-action="show"] #page_content .container .curated_content {
@@ -12620,7 +12558,7 @@ body #logos .power a {
 }
 /* line 54, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #user_profile .user_social li a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 56, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #user_profile .user_social li.email {
@@ -12723,7 +12661,7 @@ body #logos .power a {
 }
 /* line 113, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #user_profile #user_credits .table_content td a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 115, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #gravatar_hint.alert.alert-info {
@@ -12750,7 +12688,7 @@ body #logos .power a {
 }
 /* line 126, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #gravatar_hint.alert.alert-info p a:hover {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 129, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #gravatar_hint.alert.alert-info a img {
@@ -12779,7 +12717,7 @@ body #logos .power a {
 }
 /* line 145, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #my_data ul li .on_the_spot_editing, [data-namespace="null"][data-controller="users"][data-action="show"] #social_info ul li .on_the_spot_editing {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 147, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #my_data ul li .hint, [data-namespace="null"][data-controller="users"][data-action="show"] #social_info ul li .hint {
@@ -12805,7 +12743,7 @@ body #logos .power a {
 }
 /* line 163, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #change_password ul li .on_the_spot_editing {
-  color: #2FB8AC;
+  color: #2fb8ac;
 }
 /* line 165, ../../app/stylesheets/resources/users/_show.sass */
 [data-namespace="null"][data-controller="users"][data-action="show"] #change_password ul li .hint {
