@@ -1,7 +1,7 @@
 require 'openid/store/filesystem'
 Rails.application.config.middleware.use OmniAuth::Builder do  
   provider :open_id, OpenID::Store::Filesystem.new("#{Rails.root}/tmp"), :name => 'google', :identifier => 'https://www.google.com/accounts/o8/id'
-  provider :facebook, ENV['325269354227116'], ENV[' b92de467535d57213975323f56517e9f']
+  provider :facebook, '325269354227116', ' b92de467535d57213975323f56517e9f'
   begin
     OauthProvider.all.each do |p|
       # This hack can be removed after the upgrade to omniauth 2.0
