@@ -1,6 +1,6 @@
 class CreditsMailer < ActionMailer::Base
   include ERB::Util
-  default :from => "bigcolors <bigcolors@akaruilabs.me>"
+  default :from => "bigcolors <info@bigcolors.com>"
 
   def request_refund_from(backer)
     @backer = backer
