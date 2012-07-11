@@ -4,8 +4,8 @@
       .selected_projects.list
         .list_title
           .title
-            /h2= t('sections.selection.title')
-            =image_tag "catarse/selection.png"
+            h2= t('sections.selection.title')
+            /=image_tag "catarse/selection.png"
         .projects
           = render :partial => 'project', :locals => {:project => @first_project, :custom_class => 'first' } if @first_project
           = render :partial => 'project', :locals => {:project => @second_project } if @second_project
@@ -17,8 +17,8 @@
       .expiring_projects.list
         .list_title
           .title
-            /h2= t('sections.expiring.title')
-            =image_tag "catarse/expiring.png"
+            h2= t('sections.expiring.title')
+            /=image_tag "catarse/expiring.png"
         .projects
           - @expiring.each_with_index do |item,i|
             == render 'project', :project => item, :custom_class => ((@expiring.length == (i+1) ? 'last' : false) || (i==0 ? 'first' : false))
@@ -29,8 +29,8 @@
       .recents_projects.list
         .list_title
           .title
-            /h2= t('sections.recents.title')
-            =image_tag "catarse/recents.png"
+            h2= t('sections.recents.title')
+            /=image_tag "catarse/recents.png"
         .projects
           - @recent.each_with_index do |item,i|
             == render 'project', :project => item, :custom_class => ((@recent.length == (i+1) ? 'last' : false) || (i==0 ? 'first' : false))

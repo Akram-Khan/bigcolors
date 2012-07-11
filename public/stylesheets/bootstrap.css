@@ -8252,12 +8252,13 @@ body #page_content .container .list_title .title {
   max-width: 236px;
   height: 30px;
   padding: 5px 10px 5px 9px;
-  background: left top no-repeat;
+  background: url("/images/catarse/title_component241x40.png") left top no-repeat;
 }
 /* line 37, ../../app/stylesheets/content/_body.sass */
 body #page_content .container .list_title .title h2 {
   margin-left: 20px;
   float: left;
+  color: white;
   font-family: "Lato-Regular";
   font-size: 18px;
 }
@@ -9501,7 +9502,7 @@ body #logos .power a {
 .footer .content h3 {
   font-family: "Lato-Bold";
   font-size: 18px;
-  color: #2fb8ac;
+  color: #ffc90a;
   padding-bottom: 40px;
   padding-top: 5px;
 }
@@ -9516,8 +9517,7 @@ body #logos .power a {
 }
 /* line 19, ../../app/stylesheets/content/_footer.sass */
 .footer .content .info h3 {
-  background: url("/images/catarse/faq_icon18x18.png") left 5px no-repeat;
-  text-indent: 34px;
+  background: left 5px no-repeat;
 }
 /* line 23, ../../app/stylesheets/content/_footer.sass */
 .footer .content .info ul li {
@@ -9546,8 +9546,7 @@ body #logos .power a {
 }
 /* line 37, ../../app/stylesheets/content/_footer.sass */
 .footer .content .opendata h3 {
-  background: url("/images/catarse/opendata_icon26x26.png") left top no-repeat;
-  text-indent: 44px;
+  background: left top no-repeat;
 }
 /* line 40, ../../app/stylesheets/content/_footer.sass */
 .footer .content .opendata ul {
@@ -9588,8 +9587,7 @@ body #logos .power a {
 }
 /* line 63, ../../app/stylesheets/content/_footer.sass */
 .footer .content .social h3 {
-  background: url("/images/catarse/heart_icon17x14.png") left 6px no-repeat;
-  text-indent: 32px;
+  background: left 6px no-repeat;
 }
 /* line 66, ../../app/stylesheets/content/_footer.sass */
 .footer .content .social h3.newsletter {
@@ -10458,7 +10456,7 @@ body #logos .power a {
 }
 /* line 42, ../../app/stylesheets/resources/projects/_index.sass */
 [data-namespace="null"][data-controller="projects"][data-action="index"] #page_content .partners h2 {
-  background: url("/images/catarse/partners_icon26x26.png") left top no-repeat;
+  background: left top no-repeat;
   text-indent: 35px;
   padding-bottom: 9px;
   margin-top: -5px;
