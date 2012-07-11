@@ -73,7 +73,7 @@ class Project < ActiveRecord::Base
   end
 
   def display_expires_at
-    I18n.l(expires_at.to_date)
+    expires_at.strftime("%d/%m/%Y")
   end
 
   def display_pledged

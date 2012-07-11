@@ -30,6 +30,7 @@ Catarse::Application.routes.draw do
   match "/terms" => "static#terms", :as => :terms
   match "/privacy" => "static#privacy", :as => :privacy
   match "/how_it_works" => "static#how_it_works", :as => :how_it_works
+  match "/guide" => "static#guide", :as => :guide
 
   match "/thank_you" => "payment_stream#thank_you", :as => :thank_you
   match "/moip" => "payment_stream#moip", :as => :moip

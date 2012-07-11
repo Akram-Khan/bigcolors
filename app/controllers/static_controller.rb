@@ -24,6 +24,9 @@ class StaticController < ApplicationController
   def how_it_works
   end
 
+  def guide
+  end
+
   def guidelines
     @title = t('static.guidelines.title')
   end

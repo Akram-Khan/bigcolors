@@ -204,7 +204,7 @@ class ProjectsController < ApplicationController
   def bitly
     return unless Rails.env.production?
     require 'net/http'
-    res = Net::HTTP.start("api.bit.ly", 80) { |http| http.get("/v3/shorten?login=diogob&apiKey=R_76ee3ab860d76d0d1c1c8e9cc5485ca1&longUrl=#{CGI.escape(project_url(@project))}") }
+    res = Net::HTTP.start("api.bit.ly", 80) { |http| http.get("/v3/shorten?login=bigcolors&apiKey=R_82c0d8c88d6030f7af18d9f54b05f4d3&longUrl=#{CGI.escape(project_url(@project))}") }
     data = JSON.parse(res.body)['data']
     data['url'] if data
   end
