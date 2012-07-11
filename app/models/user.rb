@@ -174,7 +174,7 @@ class User < ActiveRecord::Base
     truncate display_name, :length => 42
   end
   def display_image
-    gravatar_url || image_url || '/images/user.png'
+    gravatar_url || image_url ||  'user.png' 
   end
   def backer?
     backs.confirmed.not_anonymous.count > 0

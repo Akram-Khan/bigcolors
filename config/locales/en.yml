@@ -91,11 +91,11 @@ en:
       user:
         address_city: City
         address_complement: Complement
-        address_neighbourhood: Neighbourhood
-        address_number: Number
+        address_neighbourhood: Country
+        address_number: Phone Number
         address_state: State
-        address_street: Street
-        address_zip_code: "Zip code"
+        address_street: Address
+        address_zip_code: "Zip Code/Postal Code"
         cpf: CPF
         current_password: "Current password"
         email: Email
@@ -103,7 +103,7 @@ en:
         name: Name
         password: Password
         password_confirmation: "Password Confirmation"
-        phone_number: "Mobile phone number"
+        phone_number: "Mobile/ Cell Number"
     models:
       backer: Backer
       category: Category
@@ -246,10 +246,10 @@ en:
         minimum_value: "This is the minimum amount to choose this reward."
     labels:
       backer:
-        anonymous: "I want my back to be anonymous."
+        anonymous: "I want my support to be anonymous."
         credits: "I want to use my credits on this back."
-        reward: "Select your reward"
-        value: "With how much do you want to back?"
+        reward: "Select your desired option"
+        value: "How much would you like invest in this startup?"
       comment:
         comment: "Leave your comment about this start-up"
       project:
@@ -369,8 +369,8 @@ en:
       new:
         cannot_back: "It's not possible to back this start-up right now. Please, back other start-ups."
         header:
-          subtitle: "You are a few steps from making the difference and becoming part of this start-up."
-          title: "Oohh yeah!"
+          subtitle: "You are a few steps from making the difference and becoming part of this amazing start-up!"
+          title: "Awesome!"
         no_reward: "Thanks. I just want to help the start-up."
         submit: "Review and proceed to checkout"
         title: "Back %{name}"
@@ -391,7 +391,7 @@ en:
         title: "Fill in and review your data"
         choose_payment: "How do you want to pay?"
         choose_credit_card: "Credit Card"
-        choose_boleto: "Billet Banking"
+        choose_boleto: "Pay by Bank Deposit"
         you_are_about_html: "You are about to become part of the group that does everything to make %{link} happen."
     create:
       success: "Your start-up was successfully created! We'll soon contact you. Thanks a lot!"
@@ -539,7 +539,7 @@ en:
   site:
     host: bigcolors.com
     base_url: "http://bigcolors.com"
-    blog: "http://freerangekids.wordpress.com/"
+    blog: "http://talk.excitin.com/"
     email:
       contact: info@bigcolors.com
       payments: info@bigcolors.com
