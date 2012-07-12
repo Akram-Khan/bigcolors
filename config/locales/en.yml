@@ -26,6 +26,7 @@ en:
       opendata: "nice statistics"
       social: "Connect with us"
       newsletter: "Subscribe to startup news"
+      browse-categories: "Browse Startups"
     stats:
       backers: Backers
       backs: Backs
@@ -541,10 +542,10 @@ en:
     base_url: "http://bigcolors.com"
     blog: "http://talk.excitin.com/"
     email:
-      contact: bigcolors@akaruilabs.com
-      payments: bigcolors@akaruilabs.com
-      projects: bigcolors@akaruilabs.com
-      system: bigcolors@akaruilabs.com
+      contact: info@bigcolors.com
+      payments: info@bigcolors.com
+      projects: info@bigcolors.com
+      system: info@bigcolors.com
     facebook: "http://www.facebook.com/bigcolors"
     name: bigcolors
     title: "Crowdfunding platform for start-ups"

@@ -38,43 +38,47 @@ html lang="#{I18n.locale}" xmlns:fb="http://ogp.me/ns/fb#"
     #footer
       .container.footer
         .content
-          .info
-            h3= t('footer.titles.info')
+          .browse-categories
+            h3 = t('footer.titles.browse-categories')
             ul
-              li= link_to t('footer.links.how_works'), guidelines_path
-              li= link_to t('footer.links.faq'), faq_path
-              li= link_to t('footer.links.terms'), terms_path
-              li= link_to t('footer.links.policy'), privacy_path
-              li= mail_to t('site.email.contact'), t('footer.links.contact'), :target => :_blank
-
-          .opendata
-            h3= t('footer.titles.opendata')
+              li=link_to "Category 1", "#"
+              li=link_to "Category 2", "#" 
             ul
-              li
-                h5= @total_backers
-                p= t('footer.stats.backers')
-              li
-                h5= @total_backs
-                p= t('footer.stats.backs')
-              li
-                h5= number_to_currency @total_backed, :unit => '$', :precision => 0, :delimiter => '.'
-                p= t('footer.stats.total_backed')
-              li
-                h5= @total_users
-                p= t('footer.stats.users')
-              li
-                h5= @total_projects_success
-                p= t('footer.stats.funded_projects')
-              li
-                h5= @total_projects_online
-                p= t('footer.stats.active_projects')
+              li=link_to "Category 3", "#"
+              li=link_to "Category 4", "#" 
+          //.info
+          //  h3= t('footer.titles.info')
+          //  ul
+          //    li= link_to t('footer.links.how_works'), guidelines_path
+          //    li= link_to t('footer.links.faq'), faq_path
+          //   li= link_to t('footer.links.terms'), terms_path
+          //    li= link_to t('footer.links.policy'), privacy_path
+          //    li= mail_to t('site.email.contact'), t('footer.links.contact'), :target => :_blank
 
-          .social
-            h3= t('footer.titles.social')
-            .twitter
-              = link_to "Follow @#{t('site.twitter')}", "http://twitter.com/#{t('site.twitter')}", :class => 'twitter-follow-button', :"data-button"=>"blue", :"data-text-color" => "#ffffff", :"data-link-color"=>"#fffffff", :"data-width" => "224px"
-            .facebook
-              .fb-like data-href="http://facebook.com/bigcolors" data-send="false" data-width="171" data-show-faces="true"
+          //.opendata
+          //  h3= t('footer.titles.opendata')
+          //  ul
+          //    li
+          //      h5= @total_backers
+          //      p= t('footer.stats.backers')
+          //    li
+          //      h5= @total_backs
+          //      p= t('footer.stats.backs')
+          //    li
+          //      h5= number_to_currency @total_backed, :unit => '$', :precision => 0, :delimiter => '.'
+          //      p= t('footer.stats.total_backed')
+          //    li
+          //      h5= @total_users
+          //      p= t('footer.stats.users')
+          //    li
+          //      h5= @total_projects_success
+          //      p= t('footer.stats.funded_projects')
+          //    li
+          //      h5= @total_projects_online
+          //      p= t('footer.stats.active_projects')
+
+
+          .newsletter-section
             h3.newsletter= t('footer.titles.newsletter')
             = form_tag 'http://catarse.mailee.me/go/add_contact_form', id: 'mailee-form', method: 'post' do
               = hidden_field_tag 'key', '13122d'
@@ -82,4 +86,20 @@ html lang="#{I18n.locale}" xmlns:fb="http://ogp.me/ns/fb#"
               = hidden_field_tag 'url_error', "http://#{request.env['HTTP_HOST']}/?newsletter=error"
               = text_field_tag 'email', nil, placeholder: 'email@email.com'
               = submit_tag 'submit'
+          .social
+            h3= t('footer.titles.social')
+            .twitter
+              = link_to "Follow @#{t('site.twitter')}", "http://twitter.com/#{t('site.twitter')}", :class => 'twitter-follow-button', :"data-button"=>"blue", :"data-text-color" => "#ffffff", :"data-link-color"=>"#fffffff", :"data-width" => "224px"
+            .facebook
+              .fb-like data-href="http://facebook.com/bigcolors" data-send="false" data-width="171" data-show-faces="true"
           .clearfix
+      .bottom-most-footer
+        .info
+          ul
+            li= link_to "Home |", root_url
+            li= link_to "How it Works |", guidelines_path
+            li= link_to "Help |", faq_path
+            li= mail_to t('site.email.contact'), "Contact |", :target => :_blank   
+            li= link_to "Blog |", t('site.blog'), :target => :_blank
+            li= link_to "Terms |", terms_path
+            li= link_to "Privacy", privacy_path  
